@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "modid",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "ExeMC Client",
+	"description": "ExeMC Client",
 	"authors": [
-		"Me!"
+		"callum miller-weir"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -19,7 +19,7 @@
 			"com.example.ExampleMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"net.exemc.ExeMCClient"
 		]
 	},
 	"mixins": [

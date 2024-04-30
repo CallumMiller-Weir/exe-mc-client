@@ -1,9 +1,11 @@
 {
 	"required": true,
-	"package": "com.example.mixin.client",
+	"package": "net.exemc.mixins",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"AbstractBlockStateMixin",
+		"BlockMixin",
+		"SimpleOptionMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
